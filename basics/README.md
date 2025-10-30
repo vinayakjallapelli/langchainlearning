@@ -2,13 +2,14 @@
 
 ## Python LangChain Libraries
 
-| Library                  | Use Case                                         |
-|--------------------------|--------------------------------------------------|
-| langchain-openai         | Hosts client libraries for OpenAI and ChatOpenAI |
-| langchain                | Base package of LangChain                        |
-| langchain-community      |                                                  |
-| langchain-text-splitters |                                                  |
-| langchain-postgres       |                                                  |
+| Library                   | Use Case                                                                 |
+|---------------------------|--------------------------------------------------------------------------|
+| langchain-openai          | Hosts client libraries for OpenAI and ChatOpenAI                         |
+| langchain                 | Base package of LangChain                                                |
+| langchain-community       | Hosts document loaders                                                   |
+| langchain-text-splitters  | Hosts libraries for splitting documents                                  |
+| langchain-postgres        | Hosts client libraries to interact with Postgres Vector DB               |
+| langchain_classic.indexes | Hosts RecordManager and indexing APIs for tracking documents in VectorDB |
 
 ## Langchain interface to interact with any LLM Provider
 ### LLMs
