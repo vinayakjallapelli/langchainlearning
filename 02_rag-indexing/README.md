@@ -149,3 +149,19 @@ index_3 = index(
 )
 print("Index attempt 3:", index_3)
 ```
+
+## Indexing Optimization
+A basic RAG indexing stage involves naive text splitting and embedding of chunks of a given document. However, this 
+basic approach leads to inconsistent retrieval results and a relatively high occurrence of hallucinations, especially 
+when the data source contains images and tables.
+
+There are various strategies to enhance the accuracy and performance of the indexing
+stage. We will cover three of them in the next sections: MultiVectorRetriever, RAPTOR,
+and ColBERT.
+
+### MultiVectorRetriever
+<img src="images/multi_vector_retriever.png" alt="Preview" width="600" height="300">
+
+### RAPTOR
+<img src="images/raptor.png" alt="Preview" width="600" height="400">
+
