@@ -1,11 +1,5 @@
 # RAG Indexing
 
-```mermaid
-flowchart LR
-    A[Document] --> B[Convert to text\n(Text)]
-    B --> C[Split into chunks\n(Chunk 1, Chunk 2, Chunk 3, ...)]
-    C --> D[Convert to numbers and store\n(Vector store [0.1, 0.2, 0.5, ...])]
-```
 
 ## LangChain Document
 LangChain provides an abstraction of a document called **Document**, which hosts data, metadata and some index fields. 
